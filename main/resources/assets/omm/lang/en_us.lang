@@ -1,0 +1,9 @@
+//items
+item.oats.name=Oats
+itemGroup.oatmealtab.name=Oats
+
+//blocks
+tile.oat_block.name=Block of Oats 
+
+//plants
+tile.oat_plant.name=Oat Plant 
