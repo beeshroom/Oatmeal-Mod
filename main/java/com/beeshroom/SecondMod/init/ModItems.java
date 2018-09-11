@@ -5,7 +5,6 @@ import java.util.List;
 
 import com.beeshroom.SecondMod.items.ItemBase;
 import com.beeshroom.SecondMod.items.food.ItemCustomFood;
-import com.beeshroom.SecondMod.items.food.ItemOatSeeds;
 
 import net.minecraft.item.Item;
 
@@ -18,5 +17,5 @@ public class ModItems {
 	
 	//food 
 	public static final Item OATMEAL = new ItemCustomFood("Oatmeal", 8, false);
-	public static final Item OAT_SEEDS = new ItemOatSeeds("oat_seeds", 1, false);
+	public static final Item OAT_SEEDS = new ItemBase("oat_seeds");
 }
