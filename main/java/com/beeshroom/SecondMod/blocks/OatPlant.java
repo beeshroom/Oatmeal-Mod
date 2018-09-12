@@ -38,7 +38,11 @@ public class OatPlant extends BlockBush implements IGrowable
         this.disableStats();
     }
 
-    public AxisAlignedBB getBoundingBox(IBlockState state, IBlockAccess source, BlockPos pos)
+    public OatPlant(String string) {
+		// TODO Auto-generated constructor stub
+	}
+
+	public AxisAlignedBB getBoundingBox(IBlockState state, IBlockAccess source, BlockPos pos)
     {
         return OATS_AABB[((Integer)state.getValue(this.getAgeProperty())).intValue()];
     }
