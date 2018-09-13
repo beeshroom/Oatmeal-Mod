@@ -1,0 +1,50 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+        "model": "cross"
+    },
+    "variants": {
+        "age": {
+            "0": {
+                "textures": {
+                    "cross": "tutorial:blocks/oat_plant0"
+                }
+            },
+            "1": {
+                "textures": {
+                    "cross": "tutorial:blocks/oat_plant1"
+                }
+            },
+            "2": {
+                "textures": {
+                    "cross": "tutorial:blocks/oat_plant2"
+                }
+            },
+            "3": {
+                "textures": {
+                    "cross": "tutorial:blocks/oat_plant3"
+                }
+            },
+            "4": {
+                "textures": {
+                    "cross": "tutorial:blocks/oat_plant4"
+                }
+            },
+            "5": {
+                "textures": {
+                    "cross": "tutorial:blocks/oat_plant5"
+                }
+            },
+            "6": {
+                "textures": {
+                    "cross": "tutorial:blocks/oat_plant6"
+                }
+            },
+            "7": {
+                "textures": {
+                    "cross": "tutorial:blocks/oat_plant7"
+                }
+            }
+        }
+    }
+}

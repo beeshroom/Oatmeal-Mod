@@ -1,6 +1,7 @@
 //items
 item.oats.name=Oats
 itemGroup.oatmealtab.name=Oats
+item.oat_seed.name=Oat Seeds
 
 //blocks
 tile.oat_block.name=Block of Oats 

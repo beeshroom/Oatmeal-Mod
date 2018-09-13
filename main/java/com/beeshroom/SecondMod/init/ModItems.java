@@ -4,9 +4,12 @@ import java.util.ArrayList;
 import java.util.List;
 
 import com.beeshroom.SecondMod.items.ItemBase;
+import com.beeshroom.SecondMod.items.ItemOatSeed;
 import com.beeshroom.SecondMod.items.food.ItemCustomFood;
 
 import net.minecraft.item.Item;
+import net.minecraft.item.ItemSeeds;
+import net.minecraftforge.registries.IForgeRegistry;
 
 public class ModItems {
 
@@ -17,5 +20,18 @@ public class ModItems {
 	
 	//food 
 	public static final Item OATMEAL = new ItemCustomFood("Oatmeal", 8, false);
-	public static final Item OAT_SEEDS = new ItemBase("oat_seeds");
+	
+	public static final Item OAT_SEED = new ItemBase("ItemOatSeed");
+
+	public static void register(IForgeRegistry<Item> registry) {
+		registry.registerAll(
+				// ...
+				OATS
+		);
+	}
+
+	public static void registerModels() {
+		// ...
+		OATS.registerItems();
+	}
 }
